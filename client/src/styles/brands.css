@@ -1,0 +1,27 @@
+.brand_wrapper {
+  padding: 80px 0;
+  background: #f1f2f4; /* fond plus élégant */
+}
+
+.brand_wrapper .brand_subtitle {
+  font-size: 18px;
+  color: #C62828; /* rouge foncé cohérent */
+}
+
+.brand_wrapper .brand_title {
+  font-size: 32px;
+  color: #121212; /* noir profond */
+}
+
+.brand_wrapper .showcase_card img {
+  padding: 30px 20px;
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08); /* ombre un peu plus marquée */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.brand_wrapper .showcase_card img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* plus de relief au survol */
+}

@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+  .centerMob {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.image-gallery-thumbnail img {
+  max-width: 150px;
+  height: 50px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.image-gallery-thumbnail img:hover,
+.image-gallery-thumbnail.active img {
+  border-color: #C62828; /* accent rouge */
+}
+
+.image-gallery .image-gallery-slide img {
+  width: 100% !important;
+  height: 400px !important;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}

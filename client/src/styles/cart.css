@@ -1,0 +1,17 @@
+.cart-page h1 {
+  font-size: 28px;
+  color: #C62828; /* rouge foncé pour cohérence */
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.cart-page .card {
+  height: 130px !important;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}

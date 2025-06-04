@@ -1,0 +1,34 @@
+.box-area {
+  width: 850px;
+  background: #f1f2f4; /* gris clair plus sophistiqué */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* ombrage léger */
+  border-radius: 20px;
+}
+
+.right-box {
+  padding: 30px 25px 30px 30px;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #5c636a; /* légèrement plus foncé pour la lisibilité */
+}
+
+.rounded-4 {
+  border-radius: 15px;
+}
+
+.rounded-5 {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 5px;
+    width: 95%;
+  }
+
+  .right-box {
+    padding: 15px;
+  }
+}

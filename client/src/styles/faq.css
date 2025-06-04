@@ -1,0 +1,10 @@
+.faq_wrapper .faq_subtitle {
+  color: #C62828; /* rouge foncé pour cohérence */
+  font-weight: 700;
+}
+
+.faq_wrapper .accordion-button:hover {
+  color: #C62828; /* même couleur d'accent au survol */
+  background-color: #f9f9f9; /* optionnel : petit fond au hover */
+  transition: all 0.3s ease;
+}
